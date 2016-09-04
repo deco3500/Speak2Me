@@ -52,7 +52,7 @@ The team will communicate over a private Facebook group and meet during the week
 Github will be used as a code repository. Google Drive will be used for all other documents and files. When anything of value is uploaded, the uploader will inform the team using the Facebook group.
 
 ### What are the file naming conventions?
-Files will be clearly so that they can give context as to what they are about.
+Files will be clearly named so that they can give context as to what they are about.
 
 ### Identify the social platform/s your team has adopted and explain the choice.
 Facebook group messaging, as it easily facilitates group conversations.
@@ -66,10 +66,14 @@ Files should be uploaded to either the github or the google drive and referenced
 #### Phase 1: Research
 Identify the key audiences and what features they would want to use.  
 _Duration: 2 weeks (02/09/19 - 15/09/16)_
+##### Key deliverables:
+  * identify similar businesses/products and determine features and problems that they came across.
 
 #### Phase 2: Requirements 
 Establish the requirements needed for the project and assign to team members.  
 _Duration: 1 week (16/09/16 - 22/09/16)_
+##### Key deliverables:
+  * Use cases(Scoped within the project and out of scope)
 
 #### Phase 3: Design
 Design the prototype, trial and error with what can work and what cannot.  
