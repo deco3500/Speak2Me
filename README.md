@@ -14,7 +14,7 @@ Speak2Me is a project to develop a system of contributors narrating, tagging and
   * People walking or travelling, who wish for a quick digest of news but would rather wear headphones and not have their phone out.
   * Anyone who wants a curated stream of news, but are happy to listen to it as opposed to reading or watching it.
 
-### Use-case diagram of the proposed solution:
+### User-story diagram of the proposed solution:
 Narrator/contributor side | User side
 --- | ---
 1. A news article is published. | 1. The user installs the phone app, and performs initial setup.
@@ -22,6 +22,16 @@ Narrator/contributor side | User side
 3. The contributor narrates the article and uploads it to the ‘Speak2Me’ database through a website, providing a link to the source article. | 3. They press play and listen.
 4. They select the appropriate tags for the article. | 4. The app, filtering uploaded articles for the user’s tags, plays a stream of recent high-ranking recordings.
 5. The article is upvoted by the user, which affects the contributor’s total score (encouraging to upload again or to improve their narration). | 5. The user likes the way the article is narrated, so ‘upvotes’ the article.
+
+### General use cases:
+####Listener:
+1.As an commuter I would like to be able to listen to the most recent news because it allows me to consume news without distracting me from my commute.
+2.As an person who likes to jog, I would like to be able to consume news while I jog, because it spends time by doing both activities together.
+3.As a person who is visually impaired I would like to be able to consume the most recent news as it happens with as little effort as possible.
+4.As a user who values quality and integity I would like to be able to filter news to my standard of quality.
+
+Creator:
+1.As a news broadcaster I want my news to reach as many people as possible through as many mediums as possible.
 
 ## Team: 
 ### Members of the DECO3500 course, team ‘TrashFilter’:
@@ -39,7 +49,7 @@ _Content_ - Shelby Pye
 
 
 ### How will decisions be made:
-Decisions will be made collectively as a group ensuring every team member’s ideas are taken into account. In case of discrepancies, the decision will be based on a voting system; in the case of a tied vote, the team leader will have the final say.
+Decisions will be made collectively as a group ensuring every team member’s ideas are taken into account. In case of discrepancies, the decision will be based on a voting system; in the case of a tied vote, we will consult with the tutors or the course coordinator to assist with any problematic decision.
 
 ### How will the team handle poor performance and resolve conflicts:
 The team will conduct an intervention with the poor performer in order to address their lack of contribution to the group. The remainder of the group will decide if their reason/excuse is legitimate or understandable. If so, the conflict is resolved. If not, the team will reassign the work and course staff will be notified of the incident.
