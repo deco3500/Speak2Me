@@ -2,6 +2,10 @@ DECO3500 - Social & Mobile Computing SEMESTER 2 2016
 ___
 # Project Speak2Me by TrashFilter
 
+##Problem:
+Presently all news isn't made readily assessable through an audio medium. This presents a problem for the visually impaired, those who don't have time to read and those who don't have the available attention to read through a section of news.    
+
+
 ## Introduction: 
 With news transitioning to a digital medium, the majority of news is read or watched from a screen. However, there are many times in daily life where visual information would be distracting or unavailable. This is where radio and podcasts have been successful as an audio medium for distributing information to the masses. This project aims to deliver relevant narrated news articles to those who cannot otherwise read or watch a screen.
 
