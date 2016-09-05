@@ -26,8 +26,11 @@ Narrator/contributor side | User side
 ### General use cases:
 ####Listener:
 1.As an commuter I would like to be able to listen to the most recent news because it allows me to consume news without distracting me from my commute.
+
 2.As an person who likes to jog, I would like to be able to consume news while I jog, because it spends time by doing both activities together.
+
 3.As a person who is visually impaired I would like to be able to consume the most recent news as it happens with as little effort as possible.
+
 4.As a user who values quality and integity I would like to be able to filter news to my standard of quality.
 
 Creator:
