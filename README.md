@@ -33,7 +33,7 @@ Narrator/contributor side | User side
 
 4.As a user who values quality and integity I would like to be able to filter news to my standard of quality.
 
-Creator:
+####Creator:
 1.As a news broadcaster I want my news to reach as many people as possible through as many mediums as possible.
 
 ## Team: 
