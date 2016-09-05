@@ -2,6 +2,8 @@ DECO3500 - Social & Mobile Computing SEMESTER 2 2016
 ___
 # Project Speak2Me by TrashFilter
 
+![](speak3meslide1.png?raw=true)
+
 ##Problem:
 Presently all news isn't made readily assessable through an audio medium. This presents a problem for the visually impaired, those who don't have time to read and those who don't have the available attention to read through a section of news.    
 
@@ -121,5 +123,5 @@ Android Developer Studio will be used to develop the application. The Android pl
   * Curated podcast
   * Online news
 
-![](speak3meslide1.png?raw=true)
+
 ![](speak3meslide2.png?raw=true)
