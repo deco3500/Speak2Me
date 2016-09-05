@@ -120,3 +120,6 @@ Android Developer Studio will be used to develop the application. The Android pl
 ### Two key words relating to journalism and news:
   * Curated podcast
   * Online news
+
+![](speak3meslide1.png?raw=true)
+![](speak3meslide2.png?raw=true)
