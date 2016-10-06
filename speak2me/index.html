@@ -27,7 +27,6 @@
 
 <body>
 
-
 <div id="Sidenav" class="sidenav">
   <img src="images/Username-image.png" style ="width:60px"> 
   <p> Username </p>
@@ -43,6 +42,7 @@
 
 
 </div>
+
 
 
 <div class ="row expanded" id="top-nav">
@@ -62,7 +62,13 @@
 
 
 <div class="top-nav-link">
-<a>Home </a>
+<a >Home </a>
+
+</div>
+
+<div >
+
+<a onclick="openNav()">Browse </a>
 </div>
 
 
@@ -78,10 +84,10 @@
 
       <div class="row large-collapse medium-collapse">
    
-    	<div class ="columns large-11" id ="">
+    	<div class ="columns large-11 small-10" id ="">
 <input type="text" id="middle-label search_function_box"   placeholder="Search">
 </div>
-      	<div class ="columns large-1" id ="">
+      	<div class ="columns large-1 small-1" id ="">
 <a class ="secondary button fa fa-search" id = "search_icon"></a>
 </div>
       </div>
@@ -101,8 +107,8 @@
 <div class ="row">
 <h2>My list</h2>
 
-<div class="row small-up-4 medium-up-4 large-up-4">
-  <div class="column">
+<div class="row small-up-2 medium-up-4 large-up-4">
+  <div class="column first-block">
     <img src="images/image_example.png" class="thumbnail" alt="">
   </div>
   <div class="column">
@@ -111,7 +117,7 @@
   <div class="column">
     <img src="images/image_example.png" class="thumbnail" alt="">
   </div>
-  <div class="column">
+  <div class="column last-block">
     <img src="images/image_example.png" class="thumbnail" alt="">
   </div>
 </div>
@@ -125,8 +131,8 @@
 <div class ="row">
 <h2>Personal</h2>
 
-<div class="row small-up-4 medium-up-4 large-up-4 grid">
-  <div class="column">
+<div class="row small-up-2 medium-up-4 large-up-4 grid">
+  <div class="column first-block">
     <img src="images/image_example.png" class="thumbnail" alt="">
   </div>
   <div class="column">
@@ -135,7 +141,7 @@
   <div class="column">
     <img src="images/image_example.png" class="thumbnail" alt="">
   </div>
-  <div class="column">
+  <div class="column last-block">
     <img src="images/image_example.png" class="thumbnail" alt="">
   </div>
 </div>
@@ -150,25 +156,22 @@
 
 <h2>News of the day</h2>
 
-<div class="columns large-1 small-1 icon-arrow" data-equalizer-watch>
-<i class="fa fa-angle-left" aria-hidden="true"></i>
-</div>
 
 
 
 
-<div class=" columns large-10 small-10 small-up-4 medium-up-4 large-up-4">
-  <div class="column" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" style ="margin:0px;">
+<div class=" row small-up-2 medium-up-4 large-up-4">
+  <div class="column first-block" data-equalizer-watch>
+    <img src="images/image_example.png" class="thumbnail" alt="" >
   </div>
   <div class="column" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" style ="margin:0px;">
+    <img src="images/image_example.png" class="thumbnail" alt="" >
   </div>
   <div class="column" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" style ="margin:0px;">
+    <img src="images/image_example.png" class="thumbnail" alt="" >
   </div>
-  <div class="column" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" style ="margin:0px;">
+  <div class="column last-block" data-equalizer-watch>
+    <img src="images/image_example.png" class="thumbnail" alt="" >
   </div>
 </div>
 
@@ -176,9 +179,6 @@
 
 
 
-<div class="columns large-1 small-1 icon-arrow" data-equalizer-watch>
-<i class="fa fa-angle-right" aria-hidden="true"></i>
-</div>
 
 
 </div>
@@ -195,6 +195,60 @@
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class ="overlay-wrapper overlay" id="myNav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class ="overlay-content">
+
+<h2>Account details</h2> 
+<div class="account-details">
+<p>Account name: <span class="white">John</span></p>
+<p>Plan: <span class="white">unlimited access</span></p>
+<p>Preferred tags: <span class="fa fa-tags">  </span>&nbsp; &nbsp;<span class ="tag">Business</span> <span class ="tag">Sport</span> <span class ="tag">Music</span> <span class ="tag">Lifestyle</span></p>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -213,7 +267,17 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/webpage.js"></script>
+ <script src="js/webpage.js"></script>
+
+<script>
+
+
+
+
+
+</script>
+
+
 
 
 
