@@ -1,0 +1,45 @@
+
+body > .robo{
+font-family: 'Roboto', sans-serif !important;
+
+}
+
+body{
+font-family: 'Roboto', sans-serif !important;
+background-color: #14213d;
+padding-top: 10px;
+
+}
+
+h1{
+    font-size: 3rem;
+    color: #ffffff;
+    position: relative;
+    top: 150px;
+    left:28%;
+}
+
+h2{
+font-size: 2rem;
+color: #ffffff;
+
+}
+
+div .row, h2 {
+    position: relative;
+    top: 200px;    
+
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #fca311;
+    position: relative;
+    top: 200px;
+    left:23.7%;
+
+}
+
+
+
+
