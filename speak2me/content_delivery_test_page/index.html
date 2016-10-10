@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Delivery test Aidan</title>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+	<script src="script.js"></script>
+	<!--<script src="jscsv.js"></script>-->
+
+	</script>
+</head>
+
+<body>
+	<h1>Media delivery test</h1>
+	<h2>Choose tags</h2>
+	<form>
+		<input type="checkbox" name="tag" value="Politics">Politics<br>
+		<input type="checkbox" name="tag" value="Business">Business<br>
+		<input type="checkbox" name="tag" value="Technology">Technology<br>
+		<input type="checkbox" name="tag" value="Sports">Sports<br>
+		<input type="checkbox" name="tag" value="Science">Science<br>
+		<input type="checkbox" name="tag" value="Entertainment">Entertainment<br>
+		<input type="checkbox" name="tag" value="Food">Food<br>
+		<input type="checkbox" name="tag" value="Travel">Travel<br>
+		<input type="checkbox" name="tag" value="Local">Local<br>
+		<input type="button" value="Apply" onClick="JavaScript:runTest()">
+		<input type="reset" value="Reset Checkboxes">
+	</form>
+	<h2>Audio file below</h2>
+	<audio controls>
+		<source src="blank" type="audio/mpeg">
+	</audio>
+	<br>
+	<h3>Tag selected:</h3>
+	<p id="tagTest"></p>
+	<br>
+	<h3>Selected file:</h3>
+	<p>(Filename, Article title, Date of Pub, Article URL, Narrator's username, Tags (comma-separated), Upload timestamp, Upvotes, Downvotes, Ranking)</p>
+	<p id="selectionTest"></p>
+</body>
+
+</html> 
