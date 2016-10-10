@@ -2,285 +2,130 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <title>Speak2Me</title>
-  <meta name="description" content="Speak2Me">
-  <meta name="author" content="SitePoint">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
- <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+	<title>Speak2Me</title>
+	<meta name="description" content="Speak2Me">
+	<meta name="author" content="SitePoint">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/css/font-awesome.css">
 
-
-  <link rel="stylesheet" href="css/styles.css">
-
-
-
-
-  <link rel="stylesheet" href="css/css/font-awesome.css">
-
-
-  <!--[if lt IE 9]>
+	<!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <![endif]-->
 </head>
 
 <body>
+	<div id="Sidenav" class="sidenav">
+		<img src="images/Username-image.png" style ="width:60px"> 
+		<p> Username </p>
+		<input type="text" id="middle-label search_function_box"   placeholder="Search">
+		<a href="#">Home</a>
+		<a href="#">Browse</a>
+		<a href="#">My Library</a>
+		<a href="#">Settings</a>
+	</div>
+
+	<div class ="row expanded" id="top-nav">
+		<div class ="columns large-2 small-1 medium-3" id ="logo">
+			<img src="images/logospeak2me2.png" " style="width:80px!important;">
+		</div>
+		<div class ="columns large-6 small-10" id="menu_items">
+			<div class="top-nav-link">
+				<a >Home </a>
+			</div>
+			<div >
+				<a onclick="openNav()">Browse </a>
+			</div>
+		</div>
+		<div class ="columns large-3" id ="search_function">
+			<div class="row large-collapse medium-collapse">
+				<div class ="columns large-11 small-10" id ="">
+					<input type="text" id="middle-label search_function_box"   placeholder="Search">
+				</div>
+				<div class ="columns large-1 small-1" id ="">
+					<a class ="secondary button fa fa-search" id = "search_icon"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class ="row">
+		<h2>My list</h2>
+		<div class="row small-up-2 medium-up-4 large-up-4">
+			<div class="column first-block">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+			<div class="column">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+			<div class="column">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+			<div class="column last-block">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class ="row">
+		<h2>Personal</h2>
+		<div class="row small-up-2 medium-up-4 large-up-4 grid">
+			<div class="column first-block">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+			<div class="column">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+			<div class="column">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+			<div class="column last-block">
+				<img src="images/image_example.png" class="thumbnail" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class ="row" data-equalizer data-equalize-on="medium">
+		<h2>News of the day</h2>
+		<div class=" row small-up-2 medium-up-4 large-up-4">
+			<div class="column first-block" data-equalizer-watch>
+				<img src="images/image_example.png" class="thumbnail" alt="" >
+			</div>
+			<div class="column" data-equalizer-watch>
+				<img src="images/image_example.png" class="thumbnail" alt="" >
+			</div>
+			<div class="column" data-equalizer-watch>
+				<img src="images/image_example.png" class="thumbnail" alt="" >
+			</div>
+			<div class="column last-block" data-equalizer-watch>
+				<img src="images/image_example.png" class="thumbnail" alt="" >
+			</div>
+		</div>
+	</div>
+
+	<div class ="overlay-wrapper overlay" id="myNav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class ="overlay-content">
+
+			<h2>Account details</h2> 
+			<div class="account-details">
+				<p>Account name: <span class="white">John</span></p>
+				<p>Plan: <span class="white">unlimited access</span></p>
+				<p>Preferred tags: <span class="fa fa-tags">  </span>&nbsp; &nbsp;<span class ="tag">Business</span> <span class ="tag">Sport</span> <span class ="tag">Music</span> <span class ="tag">Lifestyle</span></p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/general_js.js"></script>
+	<script src="js/vendor/what-input.js"></script>
+	<script src="js/vendor/foundation.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/webpage.js"></script>
 
-<div id="Sidenav" class="sidenav">
-  <img src="images/Username-image.png" style ="width:60px"> 
-  <p> Username </p>
-  <input type="text" id="middle-label search_function_box"   placeholder="Search">
-   
-  <a href="#">Home</a>
-
-  <a href="#">Browse</a>
-
-  <a href="#">My Library</a>
-
-  <a href="#">Settings</a>
-
-
-</div>
-
-
-
-<div class ="row expanded" id="top-nav">
-
-
-
-<div class ="columns large-2 small-1 medium-3" id ="logo">
-
-
-<img src="images/logospeak2me2.png" " style="width:80px!important;">
-
-</div>
-
-
-<div class ="columns large-6 small-10" id="menu_items">
-
-
-
-<div class="top-nav-link">
-<a >Home </a>
-
-</div>
-
-<div >
-
-<a onclick="openNav()">Browse </a>
-</div>
-
-
-
-</div>
-
-
-
-
-<div class ="columns large-3" id ="search_function">
-
-
-
-      <div class="row large-collapse medium-collapse">
-   
-    	<div class ="columns large-11 small-10" id ="">
-<input type="text" id="middle-label search_function_box"   placeholder="Search">
-</div>
-      	<div class ="columns large-1 small-1" id ="">
-<a class ="secondary button fa fa-search" id = "search_icon"></a>
-</div>
-      </div>
-     
-
-
-    
-  </div>
-</div>
-
-
-
-
-</div>
-
-
-<div class ="row">
-<h2>My list</h2>
-
-<div class="row small-up-2 medium-up-4 large-up-4">
-  <div class="column first-block">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-  <div class="column">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-  <div class="column">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-  <div class="column last-block">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-</div>
-
-
-</div>
-
-
-
-
-<div class ="row">
-<h2>Personal</h2>
-
-<div class="row small-up-2 medium-up-4 large-up-4 grid">
-  <div class="column first-block">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-  <div class="column">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-  <div class="column">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-  <div class="column last-block">
-    <img src="images/image_example.png" class="thumbnail" alt="">
-  </div>
-</div>
-
-
-</div>
-
-
-
-
-<div class ="row" data-equalizer data-equalize-on="medium">
-
-<h2>News of the day</h2>
-
-
-
-
-
-<div class=" row small-up-2 medium-up-4 large-up-4">
-  <div class="column first-block" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" >
-  </div>
-  <div class="column" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" >
-  </div>
-  <div class="column" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" >
-  </div>
-  <div class="column last-block" data-equalizer-watch>
-    <img src="images/image_example.png" class="thumbnail" alt="" >
-  </div>
-</div>
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class ="overlay-wrapper overlay" id="myNav">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<div class ="overlay-content">
-
-<h2>Account details</h2> 
-<div class="account-details">
-<p>Account name: <span class="white">John</span></p>
-<p>Plan: <span class="white">unlimited access</span></p>
-<p>Preferred tags: <span class="fa fa-tags">  </span>&nbsp; &nbsp;<span class ="tag">Business</span> <span class ="tag">Sport</span> <span class ="tag">Music</span> <span class ="tag">Lifestyle</span></p>
-
-</div>
-
-
-
-
-
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <script src="js/vendor/jquery.js"></script>
-      <script src="js/general_js.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
- <script src="js/webpage.js"></script>
-
-<script>
-
-
-
-
-
-</script>
-
-
-
-
-
-  
 </body>
 </html>
