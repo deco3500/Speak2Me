@@ -39,6 +39,7 @@
 			</div>
 			<div >
 				<a onclick="openNav()">Browse </a>
+				<a onclick="openNavMusic()">Browse </a>
 			</div>
 		</div>
 		<div class ="columns large-3" id ="search_function">
@@ -120,12 +121,79 @@
 		</div>
 	</div>
 	
+
+	<div class ="overlay-wrapper overlay" id="myNav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class ="overlay-content">
+
+			<h2>Account details</h2> 
+			<div class="account-details">
+				<p>Account name: <span class="white">John</span></p>
+				<p>Plan: <span class="white">unlimited access</span></p>
+				<p>Preferred tags: <span class="fa fa-tags">  </span>&nbsp; &nbsp;<span class ="tag">Business</span> <span class ="tag">Sport</span> <span class ="tag">Music</span> <span class ="tag">Lifestyle</span></p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class ="overlay-wrapper overlay" id="myNavmusic">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNavMusic()">&times;</a>
+		<div class ="overlay-content">
+
+			<h2>Music player</h2> 
+			<div class="account-details">
+				
+
+
+
+
+<div class="vz-wrapper -player">
+  <audio controls id="myAudio" src="allegro.mp3" data-author="Beethoven" data-title="Allegro"></audio>
+
+
+</div>
+
+  <div class="vz-wrapper -canvas">
+      <canvas id="myCanvas" width="400" height="400"></canvas>
+  </div>
+
+
+			</div>
+
+
+	
+
+
+
+
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<script src="js/vendor/jquery.js"></script>
 	<script src="js/general_js.js"></script>
 	<script src="js/vendor/what-input.js"></script>
 	<script src="js/vendor/foundation.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/webpage.js"></script>
+	<script src="js/visualizer.js"></script>
+
 
 </body>
 </html>
