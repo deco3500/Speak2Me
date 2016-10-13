@@ -96,9 +96,9 @@ text-align: center;
 
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 10; /* Stay on top */
     top: 0;
     left: 0;
     background-color: #050b2d; 
@@ -109,7 +109,8 @@ text-align: center;
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 8px 8px 8px 0px;
+    padding: 8px 8px 8px 8px;
+    margin: 0px 8px 0px 8px;
     text-decoration: none;
     font-size: 25px;
     color:  #ffffff;
@@ -216,7 +217,7 @@ width: 0;
 height:100%;
 background-color: rgb(0,0,0); /* Black fallback color */
 background-color: rgba(0,0,0, 0.95); /* Black w/opacity */
-z-index:1;
+z-index:15;
 left: 0;
 top: 0;
 overflow-x: hidden;
@@ -515,4 +516,60 @@ margin-top: 15px;
 color: #FFF;
 text-align: center;
 margin-bottom: 15px;
+}
+
+
+.top-nav-link > a{
+
+margin-right:15px;
+margin-left:15px;
+
+}
+
+.top-nav-link > a:hover{
+
+text-indent: 2;
+text-decoration: underline;
+margin-bottom: 10px
+
+}
+
+
+
+
+
+
+
+
+.Sidenav{
+
+padding: 10px;
+
+}
+
+.Sidenav > a{
+
+padding: 10px;
+
+}
+
+
+.account{
+
+display:none;
+z-index: 10;
+}
+
+#Sidenav-clear > div{
+    height:10000px;
+
+
+}
+
+
+#Sidenav-clear{
+     position: fixed;
+    opacity: 0;
+    float: none;
+    z-index: 9;
 }

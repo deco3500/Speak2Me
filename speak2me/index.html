@@ -19,16 +19,58 @@
     <![endif]-->
 </head>
 
-<body>
-	<div id="Sidenav" class="sidenav">
+<body class="">
+
+
+
+
+
+
+
+<div class="row expanded account">
+
+
+	<div id="Sidenav" class="sidenav columns large-2 medium-3 small-12">
+		
+
 		<img src="images/Username-image.png" style ="width:60px"> 
 		<p> Username </p>
-		<input type="text" id="middle-label search_function_box"   placeholder="Search">
-		<a href="#">Home</a>
+		
+		<a onclick="openNav()">My Account</a>
 		<a href="#">Browse</a>
 		<a href="#">My Library</a>
 		<a href="#">Settings</a>
+
+
+
 	</div>
+
+	<div id="Sidenav-clear" class=" columns large-10 medium-9 small-12">
+		
+
+<div> </div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
 
 	<div class ="row expanded" id="top-nav">
 		<div class ="columns large-2 small-1 medium-3" id ="logo">
@@ -36,11 +78,10 @@
 		</div>
 		<div class ="columns large-6 small-10" id="menu_items">
 			<div class="top-nav-link">
-				<a >Home </a>
-			</div>
-			<div >
-				<a onclick="openNav()">Browse </a>
-				<a onclick="openNavMusic()">Browse </a>
+				<a class ="side-bar">Home </a>
+		
+				<a onclick="openNav()">My Account</a>
+				<a onclick="openNavMusic()">Browse</a>
 			</div>
 		</div>
 		<div class ="columns large-3" id ="search_function">
@@ -59,7 +100,7 @@
 
 <div class ="row expanded">
 	
-	<hr/ style ="max-width:98%;">
+	<hr/ style ="max-width:98%; margin-top:0px; margin-bottom:15px;">
 
 </div>
 
