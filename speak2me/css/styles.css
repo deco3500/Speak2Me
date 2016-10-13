@@ -251,6 +251,15 @@ position: relative;
     color:#fca311;
 }
 
+.overlay .minbtn {
+    position: absolute;
+    top: 40px;
+    right: 85px;
+    font-size: 60px;
+    color:#fca311;
+}
+
+
 
 
 .white{
@@ -296,7 +305,7 @@ text-align: left;
 
 
 .vz-wrapper.-player {
-top: 300px;
+top: 70px;
 width:100%;
 }
 
@@ -412,14 +421,36 @@ background: rgba(0, 0, 0, .5);
 
 
 
+
+
+
+
+
+
 .owl-item > .column:hover .after {
     display: block;
     background: rgba(0, 0, 0, .8);
-        padding: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
 
 
 
  
+}
+
+.owl-item > .column .after > div {
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+.owl-item > .column:hover .after > div {
+    opacity: 1;
+  
 }
 
 
@@ -535,9 +566,17 @@ margin-bottom: 10px
 }
 
 
+.button{
 
+color:#14213d;
+font-weight: bold;
+}
 
+.button.secondary{
 
+color: #fca311;
+
+}
 
 
 
@@ -572,4 +611,64 @@ z-index: 10;
     opacity: 0;
     float: none;
     z-index: 9;
+}
+
+
+
+
+.mini-player{
+
+
+
+
+display:absolute;
+position: fixed;
+bottom:10px;
+right:10px;
+color:#FFF;
+height:60px;
+width:400px;
+background-color: rgba(0,0,0, 0.95);
+padding:10px;
+font-size: 1.3em;
+display:none;
+z-index: 9;
+}
+
+
+.closebtnminiplayer{
+ position: absolute;
+    top: 0px;
+    right: 15px;
+    font-size: 40px;
+
+
+}
+
+
+.openbtnminiplayer{
+
+ position: absolute;
+    top: 10px;
+    right: 45px;
+    font-size: 25px;
+
+}
+
+
+.btn{
+
+
+padding: 0px 15px 0px 15px;
+
+}
+
+
+.owl-item > .column > img{
+
+
+height:220px;
+width:220px;
+
+
 }

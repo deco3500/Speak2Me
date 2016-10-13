@@ -16,7 +16,11 @@ function openNav() {
 }
 
 function openNavMusic() {
-    document.getElementById("myNavmusic").style.width = "100%";
+    var player = document.getElementById("myNavmusic");
+document.getElementById("miniplayer").style.display ="none";
+player.style.width = "100%";
+player.style.height = "100%";
+
 }
 
 
@@ -27,4 +31,96 @@ function closeNav() {
 
 function closeNavMusic() {
     document.getElementById("myNavmusic").style.width = "0%";
+
+stopmusic();
+
 }
+
+
+
+
+function minNavMasic() {
+
+var player = document.getElementById("myNavmusic");
+
+var canvas = document.getElementById("myCanvas");
+var miniplayer = document.getElementById("miniplayer");
+
+
+
+document.getElementById("miniplayer").style.display ="block";
+
+
+ document.getElementById("myNavmusic").style.width = "0%";
+miniplayer.style.display ="block";
+
+}
+
+
+
+
+
+
+
+function closeNavMusicmini(){
+document.getElementById("miniplayer").style.display ="none";
+
+stopmusic();
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+function play(track){
+
+var musicplayer = document.getElementById("myAudio");
+var song = document.getElementById("mp3Source");
+song.src = track;
+
+openNavMusic();
+
+musicplayer.load();
+musicplayer.play();
+
+
+
+
+
+
+
+
+
+
+}
+
+
+function stopmusic(){
+
+var musicplayer = document.getElementById("myAudio");
+var song = document.getElementById("mp3Source");
+song.src = '';
+
+
+musicplayer.load();
+musicplayer.play();
+
+
+
+
+}
+
+
+
+
