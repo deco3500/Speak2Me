@@ -49,6 +49,9 @@ $(".edit-button").click(function(){
     $(".tags-menu").css("visibility", "visible");
     $(".tags-menu").css("opacity", "1");
     $(".overlay-wrapper-tags").css("display", "block");
+    $(".tags-menu .column").each(function(){
+            $(this).removeClass("tag-selected");
+    });
 });
 
 $(".overlay-wrapper-tags").click(function(){
