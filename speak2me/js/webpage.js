@@ -81,7 +81,7 @@ $(".tags-menu button").click(function(){
         if($(this).hasClass("tag-selected")){
             var tag = $(this).text();
             $(".account-details p:contains('Preferred tags') .tag:last-of-type .fa").parent().after(
-                $("<span class='tag'>"+ tag +"<span class='fa fa-times-circle created-tag'></span></span>"));
+                $("<span class='tag'>"+ tag +"  <span class='fa fa-times-circle created-tag'></span></span>"));
         }
     });
     closeTagMenu();
