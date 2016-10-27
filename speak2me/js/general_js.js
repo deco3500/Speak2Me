@@ -3,7 +3,7 @@ var mediaInfo = [
 ["01", "Money bag: Police raid on anti-corruption official uncovers over $120mn in cash", "10/10/2016", "https://www.rt.com/news/358891-russia-corruption-officer-dollars/", "aidan_davis", "Business, Politics", "9/11/2016 21:19", "18", "2", "0.698961794", "https://img.rt.com/files/2016.09/original/57d3de78c4618848168b45a9.jpg"], 
 ["02", "Venice: Emma Stone Wins Best Actress Prize for ‘La La Land’", "9/11/2016", "https://variety.com/2016/film/news/venice-emma-stone-wins-female-acting-prize-for-la-la-land-1201856971/", "aidan_davis", "Science", "9/11/2016 21:30", "5", "0", "0.565508505", "https://pmcvariety.files.wordpress.com/2016/09/emma.jpg?w=640&h=360&crop=1"], 
 ["03", "Activity of Huntington’s disease gene curbed for 6 months in mice", "9/10/2016", "http://www.psypost.org/2016/09/activity-huntingtons-disease-gene-curbed-6-months-mice-44870", "aidan_davis", "Business", "9/11/2016 21:41", "3", "6", "0.120581599", "http://www.psypost.org/wp-content/uploads/2015/07/DNA-double-helix-by-Wellcome-Images-702x336.jpg"], 
-["04", "Shailene Woodley on 'Divergent' Move to TV: 'I Didn’t Sign Up to Be in a Television Show'", "9/11/2016", "http://www.hollywoodreporter.com/news/shailene-woodley-divergent-move-tv-927187", "aidan_davis", "Entertainment", "9/11/2016 21:52", "4", "2", "0.299988321", "http://www.hollywoodreporter.com/news/shailene-woodley-divergent-move-tv-927187"], 
+["04", "Shailene Woodley on 'Divergent' Move to TV: 'I Didn’t Sign Up to Be in a Television Show'", "9/11/2016", "http://www.hollywoodreporter.com/news/shailene-woodley-divergent-move-tv-927187", "aidan_davis", "Entertainment", "9/11/2016 21:52", "4", "2", "0.299988321", "http://cdn3.thr.com/sites/default/files/imagecache/landscape_928x523/2016/03/gettyimages-515639254-h_2016.jpg"], 
 ["05", "96 people who ate Chipotle and got sick settled for cash — and some free-burrito coupons", "9/08/2016", "http://www.denverpost.com/2016/09/09/chipotle-foodborne-illness-cases-settled/", "aidan_davis", "Food, Business", "9/11/2016 22:03", "1", "15", "0.011119057", "https://i0.wp.com/www.denverpost.com/wp-content/uploads/2016/06/chipotle_sign1.jpg?w=810&crop=0%2C0px%2C100%2C9999px"], 
 ["06", "Here's all the drama that you missed from the 'The Bachelor Australia Finale", "15/09/2016", "https://www.buzzfeed.com/tahliapritchard/i-am-so-shook?utm_term=.ueJPK2aMW#.isLRJbVBp", "shelby_pye", "Entertainment", "9/11/2016 22:14", "10", "1", "0.622635375", "https://img.buzzfeed.com/buzzfeed-static/static/2016-09/15/7/enhanced/buzzfeed-prod-web11/anigif_original-grid-image-27405-1473939725-3.gif"], 
 ["07", "Nadal stops match so distraught mother can find lost child", "29/09/2016", "https://au.sports.yahoo.com/tennis/a/32758243/rafael-nadal-stops-match-so-mother-can-find-lost-child/#page1", "shelby_pye", "Sport", "9/11/2016 22:25", "3", "2", "0.230719932", "https://s.yimg.com/iu/api/res/1.2/e8cyEoYB9.lnV0xjgB.Wxg--/cm90YXRlPWF1dG87dz02NDA7YXBwaWQ9eXZpZGVv/https://s.yimg.com/dh/ap/default/160928/38E21E0100000578-3811771-image-a-1_1475075172572.jpg"], 
@@ -238,7 +238,12 @@ var filelocation = ''
 filelocation += 'media/' +cardArray[i][0]+ '.mp3'
 
 lines += '<div class="column">';
-lines += '<img src="images/bbc_news_logo.png" class="" alt="">';
+lines += '<img src="'
+
+
+lines +=cardArray[i][10];
+
+lines +='" class="" alt="">';
 lines += '<div class="after">';
 lines += cardArray[i][1];
 lines += '<div class ="button secondary expanded" onclick="play(';
@@ -247,7 +252,6 @@ lines += filelocation;
 lines += "'"
 lines +=')"> &#x276E;&#x276E;PLAY&#x276F;&#x276F;</div></div>';
 lines += '</div>';
-
 
 
 
