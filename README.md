@@ -11,6 +11,10 @@ Presently all news isn't made readily assessable through an audio medium. This p
 ## Introduction: 
 With news transitioning to a digital medium, the majority of news is read or watched from a screen. However, there are many times in daily life where visual information would be distracting or unavailable. This is where radio and podcasts have been successful as an audio medium for distributing information to the masses. This project aims to deliver relevant narrated news articles to those who cannot otherwise read or watch a screen.
 
+## Promotional Material:
+
+(https://s4263216-speak2me.uqcloud.net/index3.html "Our Promotional Material")
+
 ## Concept: 
 Speak2Me is a project to develop a system of contributors narrating, tagging and uploading news articles for consumption by the main users of the product. There will be a community-driven reputation system in order to maintain the quality of the media. The contributor will choose a news article, narrate it and upload the narration with appropriate tags and a link to the original article. The system will then deliver a curated stream/podcast of news articles to the user who has indicated their interests with appropriate tags. 
 
