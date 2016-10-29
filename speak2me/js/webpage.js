@@ -79,9 +79,19 @@ $(".tags-menu .tag-image-text").click(function(){
 $(".tags-menu button").click(function(){
     $(".tags-menu .column").each(function(){
         if($(this).hasClass("tag-selected")){
-            var tag = $(this).text();
-            $(".account-details p:contains('Preferred tags') .tag:last-of-type .fa").parent().after(
+            var tag = $(this).text().replace(/\s+/g, " ");
+            var add = 1;
+            $(".account-details .tag").not(".tag-reputation").each(function(){
+                var otherTag = $(this).text().replace(/\s+/g, " ");
+                var more = " " + otherTag;
+                if(tag == more){
+                    add = 0;
+                }
+            });
+            if(add){
+            $(".account-details p:contains('Preferred tags') .fa-tags").after(
                 $("<span class='tag'>"+ tag +"  <span class='fa fa-times-circle created-tag'></span></span>"));
+            }
         }
     });
     closeTagMenu();
