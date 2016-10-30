@@ -1,6 +1,18 @@
 DECO3500 - Social & Mobile Computing SEMESTER 2 2016
 ___
-# Project Speak2Me by TrashFilter
+# Final Project Deliverables
+
+## Promotional Material:
+(https://s4263216-speak2me.uqcloud.net/index3.html "Our Promotional Material")
+
+##
+(https://s4263216-speak2me.uqcloud.net/index.html "Our Demo Site")
+You can go into the account setting and apply and remove tags. Once you hit the "apply" button you can exit out of the account menu and see your now updated new feeds with your curated news
+
+
+
+
+# Initial Project 
 
 ![](speak3meslide1.png?raw=true)
 
