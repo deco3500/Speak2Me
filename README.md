@@ -3,11 +3,77 @@ ___
 # Final Project Deliverables
 
 ## Promotional Material:
-(https://s4263216-speak2me.uqcloud.net/index3.html "Our Promotional Material")
+[Promotional Material](https://s4263216-speak2me.uqcloud.net/index3.html) "Our Promotional Material")
 
-##
-(https://s4263216-speak2me.uqcloud.net/index.html "Our Demo Site")
+## Demo Site.
+[Demo Site](https://s4263216-speak2me.uqcloud.net/index.html) "Our Demo Site") You can just hit login, to get through the screen.
 You can go into the account setting and apply and remove tags. Once you hit the "apply" button you can exit out of the account menu and see your now updated new feeds with your curated news
+
+
+
+
+
+## Final design and testing
+
+### Ensuringapplicationsustainability
+[Ensuringapplicationsustainability](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20design%20and%20testing/Ensuringapplicationsustainability.pdf)
+### Feedback from tutor
+[Feedback from tutor](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20design%20and%20testing/Feedback%20from%20tutors.pdf)
+### UserTesting
+[UserTesting](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20design%20and%20testing/UserTesting.pdf)
+### UserTestingQuestionsDraft
+[UserTestingQuestionsDraft](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20design%20and%20testing/UserTestingQuestionsDraft.pdf)
+### Improvements and relevancy discussion
+[Improvements and relevancy discussion](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20design%20and%20testing/improvements%20and%20relevancy%20discussion.docx)
+### Promotional video
+[Promotional video](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20design%20and%20testing/output_HD360.mp4)
+
+## Final revisions, presentations and reflections
+
+### Final Presentation Presentation
+[Final Presentation Presentation](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20revisions%2C%20presentations%2C%20reflections/Final%20Presentation%20Presentation.pdf)
+
+### Finalpresentation
+[Finalpresentation](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20revisions%2C%20presentations%2C%20reflections/Finalpresentation.pdf)
+
+### Personas
+[Personas](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20revisions%2C%20presentations%2C%20reflections/Personas.pdf)
+
+### ScriptforFridaypresentation
+[ScriptforFridaypresentation](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Final%20revisions%2C%20presentations%2C%20reflections/ScriptforFridaypresentation.pdf)
+
+## First designs
+
+### Deco3500 design structure
+[Deco3500 design structure](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/First%20design/Deco3500%20design%20structure%20prototype.pdf)
+### To Do
+
+[To Do](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/First%20design/Todo.pdf)
+### User tasks
+[User tasks](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/First%20design/User%20tasks.xlsx)
+
+
+
+## Build and iterations
+
+### Aidans Progress
+[Aidans Progress](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Build%20and%20iterations/Aidans%20Progress.pdf)
+### Design Process
+[Design Process](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Build%20and%20iterations/Design%20Process.pdf)
+## Initial Proposal
+
+### Original slides
+[Original slides](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Initial%20proposal/Diego%20original%20slide.pdf)
+
+
+### Project proposal_final
+[Project proposal_final](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Initial%20proposal/Projectproposal_final.pdf)
+
+### Proposal pitch
+[Proposal pitch](https://github.com/deco3500/Speak2Me/blob/master/Final%20deliverable/Initial%20proposal/Proposal%20pitch.pdf)
+
+
+
 
 
 
@@ -23,9 +89,6 @@ Presently all news isn't made readily assessable through an audio medium. This p
 ## Introduction: 
 With news transitioning to a digital medium, the majority of news is read or watched from a screen. However, there are many times in daily life where visual information would be distracting or unavailable. This is where radio and podcasts have been successful as an audio medium for distributing information to the masses. This project aims to deliver relevant narrated news articles to those who cannot otherwise read or watch a screen.
 
-## Promotional Material:
-
-(https://s4263216-speak2me.uqcloud.net/index3.html "Our Promotional Material")
 
 ## Concept: 
 Speak2Me is a project to develop a system of contributors narrating, tagging and uploading news articles for consumption by the main users of the product. There will be a community-driven reputation system in order to maintain the quality of the media. The contributor will choose a news article, narrate it and upload the narration with appropriate tags and a link to the original article. The system will then deliver a curated stream/podcast of news articles to the user who has indicated their interests with appropriate tags. 
